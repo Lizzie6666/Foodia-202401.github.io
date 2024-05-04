@@ -1,0 +1,346 @@
+{
+	"info": {
+		"_postman_id": "188ef6c7-5740-4cb5-a8b7-65130934fd33",
+		"name": "SecurityAuthors1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4117618"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/authenticate",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":  \"mkt\",\r\n    \"password\" : 123456\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Author",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNzE0NDI1MTYyLCJub21icmUiOiJyb3NhIiwiaWF0IjoxNzE0NDA3MTYyfQ.4ssdD_7wZ0e0WowsIikKHhMdz01Oe21lX_MO40nmfswgCqj0BK58PZBgGc3LeFDjB5pSfTIuJWid5qN6m5bMIA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameAuthor\": \"Cesar Otero\",\r\n    \"emailAuthor\" : \"cesar@gmail.com\",\r\n    \"birthDateAuthor\" : \"2014-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/author",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Book",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNzE0MzI3OTUzLCJub21icmUiOiJyb3NhIiwiaWF0IjoxNzE0MzA5OTUzfQ.X77A4NsJdiv3WyJ1F19GZzuP34w19_4MOUVHcjIpNuWFNkaciSlf6lt-wxxzz9oA9Y1PhyA6I2dUnQzvY1ix6w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"nameBook\": \"Azul Book\",\r\n    \"publicationDateBook\" : \"2022-02-01\",\r\n    \"numberPages\" : 20,\r\n     \"author\":{\r\n        \"id\": 1\r\n     }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Authors",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNzE0MzI2NDI0LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNzE0MzA4NDI0fQ.bBUfnZcWY-hrNsA__AurGxaai8aYOvpDyQ9otbasFt4DQQg2FLrvDAaKKiRaIcJbStdsmFCKyuTAupEncFOEzA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Books",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNzE0MzI2NDI0LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNzE0MzA4NDI0fQ.bBUfnZcWY-hrNsA__AurGxaai8aYOvpDyQ9otbasFt4DQQg2FLrvDAaKKiRaIcJbStdsmFCKyuTAupEncFOEzA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "authorsBooks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SAVE USER",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNjg2NjA1NzU0LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNjg2NTg3NzU0fQ.-wVY12FJ_DJ1W55J0f871TyYkHve2zjQ8Nj-JwK4LG8D-IsRufQAu7Jv-o_CEkS1KD2u231snUkIHO-GFe-ifQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"luis\",\r\n    \"password\" : 123456,\r\n    \"enabled\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SAVE ROLE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "AsignarRol-User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNjg2Njg5ODI0LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNjg2NjcxODI0fQ.BvfNi33byCRZfcN7hvZjNNXwors50P_i9f1_8NpKa-5mzebDuKdcAE81x0HD0QSiZqhUCLCvvW_2tSZTShNU4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users/save/3/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"save",
+						"3",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Autor x ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNjk5ODYyOTc2LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNjk5ODQ0OTc2fQ.3als7zgEKthC_Ryt_YrgFyFad6qd40vrfmz5URZ9o5KjfiSADEK1wDff3ZCviVj_inoun8lriPAxeFFYL7xddw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/author/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"author",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contars Books",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwZXBlIiwiZXhwIjoxNjkyOTU4NTY3LCJub21icmUiOiJyb3NhIiwiaWF0IjoxNjkyOTQwNTY3fQ.Pt6HmprwQSDE7jwYxUl3JCKsBgHHQpmJcyVxBblTSoN4qqXyOPFXS_mUQJiecWS8Sr5z6zO-oXZT73MDOMBlHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/books/contars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"contars"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

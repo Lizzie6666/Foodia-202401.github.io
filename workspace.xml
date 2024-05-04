@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8df1e162-3aa3-419a-b913-6fa97f97e0ea" name="Changes" comment="CRUD &#10;Ingredient&#10;Ingredient Cat&#10;Recipe&#10;Recipe Cat" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eyWf8KJdQdeKUUyhppPvrGCCQ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BackendPruebaApplication.executor": "Run",
+    "git-widget-placeholder": "lizzie",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/Downloads/security-demoAuthor-2024-Spring3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22068965",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BackendPruebaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="backend-prueba" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backendprueba.BackendPruebaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8df1e162-3aa3-419a-b913-6fa97f97e0ea" name="Changes" comment="" />
+      <created>1712877398194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712877398194</updated>
+      <workItem from="1712877399531" duration="12717000" />
+      <workItem from="1712900152092" duration="758000" />
+      <workItem from="1713025789441" duration="14060000" />
+      <workItem from="1713161304854" duration="83000" />
+      <workItem from="1713331625427" duration="650000" />
+      <workItem from="1713334791629" duration="964000" />
+      <workItem from="1713410797233" duration="548000" />
+      <workItem from="1713411354722" duration="12764000" />
+      <workItem from="1713749941168" duration="4109000" />
+      <workItem from="1714133331831" duration="2397000" />
+      <workItem from="1714216924086" duration="5027000" />
+      <workItem from="1714230033593" duration="16866000" />
+      <workItem from="1714412295545" duration="621000" />
+      <workItem from="1714657570949" duration="6314000" />
+    </task>
+    <task id="LOCAL-00001" summary="Recipe">
+      <option name="closed" value="true" />
+      <created>1712900296713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712900296713</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Recipe">
+      <option name="closed" value="true" />
+      <created>1713029855498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713029855498</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ok">
+      <option name="closed" value="true" />
+      <created>1713056132920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713056132920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ok">
+      <option name="closed" value="true" />
+      <created>1713066356499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713066356499</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CRUD &#10;Ingredient&#10;Ingredient Cat&#10;Recipe&#10;Recipe Cat">
+      <option name="closed" value="true" />
+      <created>1714231002891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714231002891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CRUD &#10;Ingredient&#10;Ingredient Cat&#10;Recipe&#10;Recipe Cat">
+      <option name="closed" value="true" />
+      <created>1714663626820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714663626820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Recipe" />
+    <MESSAGE value="ok" />
+    <MESSAGE value="CRUD &#10;Ingredient&#10;Ingredient Cat&#10;Recipe&#10;Recipe Cat" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD &#10;Ingredient&#10;Ingredient Cat&#10;Recipe&#10;Recipe Cat" />
+  </component>
+</project>
